@@ -1,47 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import { BrowserRouter, Route, Routes, Navigate, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Navigate, Link } from "react-router-dom";
 
-// import Header from "./pages/Header";
-import HomePage from "./pages/Home"
-import TeamPage from "./pages/Team";
-import FAQPage from "./pages/FAQ"
-import SignificancePage from "./pages/Significance";
-// import Chatbot from "./chatbot/Chatbot"
+import Header from "./pages/Header";
+import Team from "./pages/Team";
+import FAQ from "./pages/FAQ"
+import Significance from './pages/Significance';
+import Chatbot from "./chatbot/Chatbot"
+// chatbot should include viz, bot, checklist
 
 function App() {
   return (
     <div className="App">
-			<BrowserRouter>
-				<Routes>
-					<Route path='/' element={
-						<HomePage />
-					} />
-					<Route path='/Significance' element={
-						<SignificancePage/>
-					} />
-          <Route path='/FAQ' element={
-						<FAQPage/>
-					} />
-          <Route path='/Team' element={
-						<TeamPage/>
-					} />
-					<Route path='*' element={<Navigate to='/' />} />
-				</Routes>
-			</BrowserRouter>
+      <Header></Header>
+
+      <Chatbot></Chatbot>
+      {/* onclick -> */}
+      {/* <Team></Team> */}
+			<Router>
+					<Route exact path='/significance' component={Significance}/>
+          <Route exact path='/chatbot' component={Chatbot}/>
+          <Route exact path='/team' component={Team}/>
+          <Route exact path='/faq' component={FAQ}/>
+					<Route path='*' element={<Navigate to='/chatbot' />} />
+			</Router>
 		</div>
-    // <div className="App">
-    //   <BrowserRouter>
-    //     <div>
-    //       <Header />
-    //       <Route exact path="/" component={Home} />
-    //       <Route exact path="/about" component={About} />
-    //       <Route exact path="/data" component={Data} />
-    //       <Chatbot />
-    //     </div>
-    //   </BrowserRouter>
-    // </div>
   );
 }
 
