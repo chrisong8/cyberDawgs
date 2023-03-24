@@ -1,17 +1,14 @@
 import { Link } from "react-router-dom";
 
-// insert navbar/links here later
+// TODO: insert navbar/links, smt like https://react-bootstrap.github.io/components/navbar/
 function Header() {
     return (
       <div className='header'>
-        <div className='title'>
+        <div>
           <h1>NOVA</h1>
         </div>
       </div>
     );
-          {/* <Link to="/significance">Significance</Link>
-      <Link to="/faq">FAQ</Link>
-      <Link to="/ourteam">Our Team</Link> */}
 }
   
 export default Header;

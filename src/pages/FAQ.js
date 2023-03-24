@@ -3,7 +3,7 @@
 import React from "react";
 
 function FAQ() {
-    return <p>faq here</p>;
+    return <p>faq page here</p>;
 }
 
 export default FAQ;
