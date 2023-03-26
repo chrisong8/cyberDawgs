@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 // TODO: style and render
-function Header() {
+function Footer() {
     return (
       <div className='footer'>
         <h3>@INFO Capstone CyberDawgs</h3>
@@ -9,4 +9,4 @@ function Header() {
     );
 }
   
-export default Header;
+export default Footer;

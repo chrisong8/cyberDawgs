@@ -8,12 +8,15 @@ import FAQ from "./pages/FAQ"
 import Significance from './pages/Significance';
 import ChatbotPage from "./chatbot/ChatbotPage"
 
+// TODO: add rendering appropriate page based on navigation/state (i.e. if click faq page, navigate)
+// TODO: somehow render chatbot, viz, checklist on same page
 function App() {
   return (
     <div className="App">
       <div className="content">
         <Header></Header>
         <ChatbotPage></ChatbotPage>
+
         <Router></Router>
           {/* <Link to="/chatbot">Home</Link>
           <Link to="/significance">About us</Link>

@@ -9,10 +9,10 @@ const config = {
   botName: 'NOVA',
   customStyles: {
     botMessageBox: {
-      backgroundColor: '#376B7E',
+      backgroundColor: '#b19cd9',
     },
     chatButton: {
-      backgroundColor: '#5ccc9d',
+      backgroundColor: '#000000',
     },
   },
 };

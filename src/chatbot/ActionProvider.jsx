@@ -1,8 +1,6 @@
 import React from 'react';
 
-// let spawn = require('child_process').spawn;
-// const process = spawn('python', ['script.py', text]);
-
+// Provides action functions for bot to render response
 const ActionProvider = ({ createChatBotMessage, setState, children }) => {
     const handleHello = () => {
         const botMessage = createChatBotMessage('Hello. Nice to meet you.');
@@ -15,8 +13,8 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
 
     // handles questions about NIST CSF
     const nist = () => {
-
-        const response = 'INSERT CALL TO FLASK API HERE'
+        // fetch from flask api here
+        const response = fetch()
 
         const botMessage = createChatBotMessage(response);
     
@@ -26,8 +24,8 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
         }));
     };
 
+    // hopefully filter blank or inappropriate user input
     const idk = () => {
-
         const response = 'I am not sure how to answer that question... try again?'
 
         const botMessage = createChatBotMessage(response);

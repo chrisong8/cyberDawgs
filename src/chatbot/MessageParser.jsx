@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Calls appropriate function based on message sent by user
 const MessageParser = ({ children, actions }) => {
   const parse = (message) => {
     if (message.includes('kpmg')) {

@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 // TODO: arrange into neater formation and add links
+// TODO: add info and style cards
 function Team() {
     return(
         <div>
