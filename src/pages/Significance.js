@@ -1,9 +1,9 @@
 import React from "react";
 
-// TODO: Add content and style
+// TODO: Add black header, articles, and style
 function Significance() {
     return (<section className="Home">
-    <h1>This is the homepage</h1>
+    <h1>Significance</h1>
   </section>);
 }
 

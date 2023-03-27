@@ -3,6 +3,7 @@ from flask import Flask, jsonify, request, render_template
 
 app = Flask(__name__)
 
+# research how to pass in user's message, don't wanna use url params
 @app.route('/test', methods=['GET', 'POST'])
 def testfn():
     # GET request: 

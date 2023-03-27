@@ -6,7 +6,8 @@ import Header from "./pages/Header";
 import Team from "./pages/Team";
 import FAQ from "./pages/FAQ"
 import Significance from './pages/Significance';
-import ChatbotPage from "./chatbot/ChatbotPage"
+import Footer from "./pages/Footer";
+import ChatbotPage from "./chatbot/ChatbotPage";
 
 // TODO: add rendering appropriate page based on navigation/state (i.e. if click faq page, navigate)
 // TODO: somehow render chatbot, viz, checklist on same page
@@ -16,6 +17,7 @@ function App() {
       <div className="content">
         <Header></Header>
         <ChatbotPage></ChatbotPage>
+        <Footer></Footer>
 
         <Router></Router>
           {/* <Link to="/chatbot">Home</Link>

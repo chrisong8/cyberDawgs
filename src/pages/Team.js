@@ -23,7 +23,7 @@ function Team() {
         <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
-            <Card.Title>Chris Ong</Card.Title>
+            <Card.Title>Million Werede</Card.Title>
             <Card.Text>
             Insert bio here
             </Card.Text>
@@ -34,7 +34,7 @@ function Team() {
         <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
-            <Card.Title>Chris Ong</Card.Title>
+            <Card.Title>Matthew Balgan</Card.Title>
             <Card.Text>
             Insert bio here
             </Card.Text>
@@ -45,7 +45,7 @@ function Team() {
         <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
-            <Card.Title>Chris Ong</Card.Title>
+            <Card.Title>Connor Fink</Card.Title>
             <Card.Text>
             Insert bio here
             </Card.Text>
@@ -56,7 +56,7 @@ function Team() {
         <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
-            <Card.Title>Chris Ong</Card.Title>
+            <Card.Title>Daniel Cavazos</Card.Title>
             <Card.Text>
             Insert bio here
             </Card.Text>
