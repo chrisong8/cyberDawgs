@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Routes, Link } from "react-router-dom";
 
 import Header from "./pages/Header";
 import Team from "./pages/Team";
@@ -15,11 +15,16 @@ function App() {
   return (
     <div className="App">
       <div className="content">
-        <Router>
-            <Header></Header>
-          <ChatbotPage></ChatbotPage>
+        <Header />
+        <div className='container'>
+          <Routes>
+            <Route path='/chatbot' element={<ChatbotPage />}/>
+            <Route path='/significance' element={<Significance />}/>
+            <Route path='/Team' element={<Team />}/>
+            <Route path='/faq' element={<FAQ />}/>
+          </Routes>
+        </div>
         <Footer></Footer>
-        </Router>
           {/* <Link to="/chatbot">Home</Link>
           <Link to="/significance">About us</Link>
           <Route path='/significance' element={Significance}/>

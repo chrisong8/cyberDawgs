@@ -14,10 +14,10 @@ function Header() {
         </div>
         <div className="bottom">
           <div className="nav-buttons">
-            <button className="nav-button">CHATBOT</button>
-            <button className="nav-button">SIGNIFICANCE</button>
-            <button className="nav-button">FAQ</button>
-            <button className="nav-button">ABOUT US</button>
+            <Link to="/chatbot" className="nav-button">CHATBOT</Link>
+            <Link to="/significance" className="nav-button">SIGNIFICANCE</Link>
+            <Link to="/faq" className="nav-button">FAQ</Link>
+            <Link to="/Team" className="nav-button">ABOUT US</Link>
           </div>
         </div>
       </div>
