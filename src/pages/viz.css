@@ -1,0 +1,8 @@
+.viz{
+  width: 25%;
+  height: 100%;
+  float: left;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: antiquewhite;
+}

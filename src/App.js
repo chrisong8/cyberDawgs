@@ -15,11 +15,11 @@ function App() {
   return (
     <div className="App">
       <div className="content">
-        <Header></Header>
-        <ChatbotPage></ChatbotPage>
+        <Router>
+            <Header></Header>
+          <ChatbotPage></ChatbotPage>
         <Footer></Footer>
-
-        <Router></Router>
+        </Router>
           {/* <Link to="/chatbot">Home</Link>
           <Link to="/significance">About us</Link>
           <Route path='/significance' element={Significance}/>

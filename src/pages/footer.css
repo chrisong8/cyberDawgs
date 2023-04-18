@@ -1,12 +1,9 @@
 .footer {
-    width: 100%;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    top: 50%;
-    font-size: 18px;
+    font-size: .8rem;
     text-align: left;
-    padding-left: 10px;
-    background-color: #d3d3d3;
-    height: 30px;
+    padding: 1rem;
+    background-color: #E8E8E8;
 }

@@ -5,8 +5,20 @@ import './header.css'
 function Header() {
     return (
       <div className='header'>
-        <div>
-          <h1>NOVA</h1>
+        <div className="top">
+          <div className="titles">
+            <div className="nav-brand">NOVA</div>
+            <span className="subtext">NIST CSF Education and Management Tool</span>
+          </div>
+          <button className="login-button">Login</button>
+        </div>
+        <div className="bottom">
+          <div className="nav-buttons">
+            <button className="nav-button">CHATBOT</button>
+            <button className="nav-button">SIGNIFICANCE</button>
+            <button className="nav-button">FAQ</button>
+            <button className="nav-button">ABOUT US</button>
+          </div>
         </div>
       </div>
     );
