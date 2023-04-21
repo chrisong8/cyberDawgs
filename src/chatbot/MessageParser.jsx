@@ -3,13 +3,10 @@ import React from 'react';
 // Calls appropriate function based on message sent by user
 const MessageParser = ({ children, actions }) => {
   const parse = (message) => {
-    if (message.includes('kpmg')) {
-        actions.nist();
-        // call to python side
-    } else if (message.includes('hello')) {
+    if (message.toLowerCase() == "hi" || message.toLowerCase() == "hello") {
         actions.handleHello();
     } else {
-        actions.idk()
+      actions.nlp(message);
     }
   };
 

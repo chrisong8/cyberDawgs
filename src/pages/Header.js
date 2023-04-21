@@ -10,7 +10,7 @@ function Header() {
             <div className="nav-brand">NOVA</div>
             <span className="nav-subtext">NIST CSF Education and Management Tool</span>
           </div>
-          <button className="login-button">Login</button>
+          <Link to ="/login" className="login-button">Login</Link>
         </div>
         <div className="bottom">
           <div className="nav-buttons">
