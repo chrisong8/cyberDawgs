@@ -5,10 +5,10 @@ import './viz.css'
 function Viz() {
     return (
         <div>
-            <div className="viz">
+            <div className="viz-2">
 
-                <nav>
-                    <label for="touch11"><span>Identify Function</span></label>               
+                <nav className="viz-nav">
+                    <label for="touch11"><div className="viz-title">Identify Function</div></label>               
                     <input type="checkbox" id="touch11"></input>
 
                     <ul class="slide11">
@@ -22,7 +22,7 @@ function Viz() {
                 </nav>
 
                 <nav>
-                    <label for="touch2"><span>Protect Function</span></label>               
+                    <label for="touch2"><div className="viz-title">Protect Function</div></label>               
                     <input type="checkbox" id="touch2"></input>
 
                     <ul class="slide2">
@@ -37,7 +37,7 @@ function Viz() {
                 </nav>
 
                 <nav>
-                    <label for="touch3"><span>Detect Function</span></label>               
+                    <label for="touch3"><div className="viz-title">Detect Function</div></label>               
                     <input type="checkbox" id="touch3"></input>
 
                     <ul class="slide3">
@@ -49,7 +49,7 @@ function Viz() {
                 </nav>
 
                 <nav>
-                    <label for="touch4"><span>Respond Function</span></label>               
+                    <label for="touch4"><div className="viz-title">Respond Function</div></label>               
                     <input type="checkbox" id="touch4"></input>
 
                     <ul class="slide4">
@@ -63,7 +63,7 @@ function Viz() {
                 </nav>
 
                 <nav>
-                    <label for="touch5"><span>Recover Function</span></label>               
+                    <label for="touch5"><div className="viz-title">Recover Function</div></label>               
                     <input type="checkbox" id="touch5"></input>
 
                     <ul class="slide5">

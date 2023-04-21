@@ -1,4 +1,4 @@
-.viz {
+.viz-2 {
   
   width: 80%;
   height: 100%;
@@ -31,13 +31,13 @@ li a {
 	color : #2d2f31;
 }
 
-nav {
+.viz-nav {
 	width: 300px; 
 	background: #d9d9d9;
 	margin: 20px auto 0;
 }
 
-span {
+.viz-title {
 	padding: 30px;
 	background: #2d2f31; 
 	color: white;
@@ -48,10 +48,9 @@ span {
 	margin-bottom: 10px;
 }
 
-span::after {
+.viz-title::after {
 	float: right;
 	right: 10%;
-	content: "+";
 }
 
 .slide11 {
