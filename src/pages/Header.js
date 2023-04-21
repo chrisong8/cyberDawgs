@@ -8,7 +8,7 @@ function Header() {
         <div className="top">
           <div className="titles">
             <div className="nav-brand">NOVA</div>
-            <span className="subtext">NIST CSF Education and Management Tool</span>
+            <span className="nav-subtext">NIST CSF Education and Management Tool</span>
           </div>
           <button className="login-button">Login</button>
         </div>
