@@ -1,14 +1,18 @@
 from flask import Flask, jsonify, request
+from flask_cors import CORS
+
 import ask
 
 app = Flask(__name__)
+CORS(app)
 
-@app.route("/ask", methods=("POST"))
-def ask():
-    query = request.json['query']
+@app.route("/api", methods=(["POST"]))
+def ask_main():
+    query = request.get_json()
 
     result = ask.ask(query)
-    return jsonify(result=result)
+    print(result)
+    return result
 
 if __name__ == '__main__':
     app.run()

@@ -5,7 +5,7 @@ from scipy import spatial
 import openai
 import os
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = "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"
 EMBEDDING_MODEL = "text-embedding-ada-002"
 GPT_MODEL = "gpt-3.5-turbo"
 BATCH_SIZE = 1000
