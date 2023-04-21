@@ -8,10 +8,10 @@ function Viz() {
             <div className="viz">
 
                 <nav>
-                    <label for="touch"><span>Identify Function</span></label>               
-                    <input type="checkbox" id="touch"></input>
+                    <label for="touch11"><span>Identify Function</span></label>               
+                    <input type="checkbox" id="touch11"></input>
 
-                    <ul class="slide">
+                    <ul class="slide11">
                         <li><a href="#"><b><u>The Identify Categories:</u></b></a></li> 
                         <li><a href="#"><b>Asset Management (ID.AM):</b> The data, personnel, devices, systems, and facilities that enable the organization to achieve business purposes are identified and managed consistent with their relative importance to business objectives and the organization’s risk strategy.<i><a href="https://csf.tools/reference/nist-cybersecurity-framework/v1-1/id/id-am/"> Click here</a></i> to learn more about the Asset Management subcategories</a></li> 
                         <li><a href="#"><b>Business Environment (ID.BE):</b> The organization’s mission, objectives, stakeholders, and activities are understood and prioritized; this information is used to inform cybersecurity roles, responsibilities, and risk management decisions.<i><a href="https://csf.tools/reference/nist-cybersecurity-framework/v1-1/id/id-be/"> Click here</a></i> to learn more about the Business Environment subcategories</a></li> 
