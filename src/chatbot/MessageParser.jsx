@@ -3,8 +3,10 @@ import React from 'react';
 // Calls appropriate function based on message sent by user
 const MessageParser = ({ children, actions }) => {
   const parse = (message) => {
-    if (message.toLowerCase() == "hi" || message.toLowerCase() == "hello") {
+    if (message.toLowerCase() === "hi" || message.toLowerCase() === "hello") {
         actions.handleHello();
+    } else if (message === "") {
+      actions.idk();
     } else {
       actions.nlp(message);
     }

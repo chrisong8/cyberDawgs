@@ -65,7 +65,7 @@ function Team() {
             </div>
             <div className="team-section">
             <Card className="my-card">
-                <Card.Img variant="top" src="/pics/chr.jpg" className="card-img" />
+                <Card.Img variant="top" src="/pics/chris.jpg" className="card-img" />
                 <Card.Body>
                     <Card.Title className="cardTitle">Chris Ong</Card.Title>
                     <Card.Text className="cardDesc">Software Developer</Card.Text>

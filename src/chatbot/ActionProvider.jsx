@@ -1,7 +1,5 @@
 import React from 'react';
 
-// const { spawn } = require('child_process');
-
 // Provides action functions for bot to render response
 const ActionProvider = ({ createChatBotMessage, setState, children }) => {
     const handleHello = () => {
@@ -22,7 +20,6 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
         let answer = "Sorry try again"
 
         try {
-          // fetch request, send message inside req body
           const response = await fetch(url, {
               method: 'POST',
               headers: {
@@ -33,21 +30,17 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
           }).then((response) => {
               if (response.ok) {
                 return response.text()
-                //console.log(answer);
               }
           }).then(text => {
-            console.log(text + "this is text")
             answer = createChatBotMessage(text);
-          }
-          );
-  
-
+          }).catch(error => {
+            console.error("Error with fetch" + error);
+          });
       } catch (error) {
           console.error(`FETCH: ${error}`);
       }
 
       let botMessage = answer;
-  
 
         setState((prev) => ({
           ...prev,
@@ -55,7 +48,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
         }));
     };
 
-    // hopefully filter blank or inappropriate user input
+    // TODO? filter blank or inappropriate user input
     const idk = () => {
         const response = 'I am not sure how to answer that question... try again?'
 
@@ -67,7 +60,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
         }));
     };
 
-
+    // all actions must be returned
   return (
     <div>
       {React.Children.map(children, (child) => {

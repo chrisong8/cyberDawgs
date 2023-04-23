@@ -2,6 +2,8 @@
 
 # environment file
 /src/api/.env
+/src/api/secret.txt
+
 
 # dependencies
 /node_modules
@@ -24,5 +26,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-notes.txt

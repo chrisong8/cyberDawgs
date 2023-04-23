@@ -21,7 +21,7 @@ function ChatbotPage() {
                 <Viz></Viz>
             </div>
             <div className='bot' id="pane" style={{
-                width: "40%",
+                width: "60%",
                 }}>
                 <Chatbot
                     headerText="Chat with NOVA"
@@ -31,12 +31,6 @@ function ChatbotPage() {
                     // validator={validateInput}
                     placeholderText='Type your message here...'
                 />
-            </div>
-            <div className='checklist' id="pane" style={{
-                width: "20%",
-                paddingTop: "40px"
-                }}>
-                <Checklist></Checklist>
             </div>
         </div>
     );

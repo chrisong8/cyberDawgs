@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./checklist.css";
+// import "./checklist.css";
 
 function Checklist() {
   const [identifyExpanded, setIdentifyExpanded] = useState(false);
