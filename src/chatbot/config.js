@@ -8,19 +8,19 @@ const config = {
       "I'm here to help you understand the NIST CSF framework.", 
       {
         withAvatar: false,
-        delay: 250,
+        delay: 500,
       }
     ),
     createChatBotMessage(`What questions do you have for me?`, 
     {
       withAvatar: false,
-      delay: 500,
+      delay: 1000,
     })
   ],
   customComponents: {
     // Replaces the default header
     header: () => <div style={{ backgroundColor: 'black', borderRadius: "3px" , color: "white"}}></div>,
-  //  // Replaces the default bot avatar
+    // Replaces the default bot avatar
     // botAvatar: (props) => <Avatar {...props} />,
 
   //  // Replaces the default user icon

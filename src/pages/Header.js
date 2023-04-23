@@ -15,7 +15,6 @@ function Header() {
         <div className="bottom">
           <div className="nav-buttons">
             <Link to="/chatbot" className="nav-button">CHATBOT</Link>
-            {/* <Link to="/significance" className="nav-button">SIGNIFICANCE</Link> */}
             <Link to="/faq" className="nav-button">FAQ</Link>
             <Link to="/Team" className="nav-button">ABOUT US</Link>
           </div>

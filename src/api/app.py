@@ -11,7 +11,7 @@ def ask_main():
     query = request.get_json()
 
     result = ask.ask(query)
-    print(result)
+    print("Bot answer: " + result)
     return result
 
 if __name__ == '__main__':

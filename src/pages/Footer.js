@@ -1,7 +1,5 @@
-import { Link } from "react-router-dom";
 import './footer.css'
 
-// TODO: style and render
 function Footer() {
     return (
       <div className='footer' styles={{}}>
