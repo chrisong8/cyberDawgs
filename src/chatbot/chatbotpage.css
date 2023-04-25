@@ -77,19 +77,24 @@ button.react-chatbot-kit-chat-btn-send svg {
 .react-chatbot-kit-chat-bot-message-container {
 }
 
+/* p::after {
+    content: "NOVA";
+} */
+
 .react-chatbot-kit-chat-bot-avatar-container {
 }
 
 .react-chatbot-kit-chat-bot-avatar {
+    content: "NNNN"
 }
 
 /* change icon? */
 .react-chatbot-kit-chat-bot-avatar-icon {
+    content: "NNNN"
 }
 
 /* change avatar letter/icon */
 .react-chatbot-kit-chat-bot-avatar-letter {
-
 }
 
 /* also hard coded */

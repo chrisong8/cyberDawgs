@@ -1,12 +1,9 @@
-// import { Link } from "react-router-dom";
-
 import config from './config.js';
 import MessageParser from './MessageParser.jsx';
 import ActionProvider from './ActionProvider.jsx';
 
 import Chatbot from 'react-chatbot-kit'
 import Viz from '../pages/Viz.js'
-// import Checklist from '../pages/Checklist.js'
 import 'react-chatbot-kit/build/main.css'
 import './chatbotpage.css';
 

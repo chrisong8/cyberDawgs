@@ -1,5 +1,4 @@
 import { createChatBotMessage } from 'react-chatbot-kit';
-import Avatar from "../chatbot/Avatar"
 
 const config = {
   initialMessages: [
@@ -21,7 +20,7 @@ const config = {
     // Replaces the default header
     header: () => <div style={{ backgroundColor: 'black', borderRadius: "3px" , color: "white"}}></div>,
     // Replaces the default bot avatar
-    // botAvatar: (props) => <Avatar {...props} />,
+    botAvatar: (props) => <img src='asdf.png' style={{padding: "5px", position: "relative"}}></img>,
 
   //  // Replaces the default user icon
   //  userAvatar: (props) => <MyCustomAvatar {...props} />,

@@ -3,7 +3,6 @@ import ast
 import tiktoken
 from scipy import spatial
 import openai
-import os
 
 openai.api_key = open('./secret.txt').read()
 EMBEDDING_MODEL = "text-embedding-ada-002"
