@@ -8,8 +8,6 @@
   
 }
 
-
-  
 body {
 	background-color : #ededed;
 	font-family : "Open Sans", sans-serif;
@@ -30,6 +28,11 @@ li a {
 	text-decoration : none;
 	color : #2d2f31;
 }
+
+.function-box li:hover {
+    background-color: #e4e4e4;
+}
+
 
 .viz-nav {
 	width: 300px; 
@@ -109,6 +112,34 @@ li a {
 	height: 300px;
 }
 
+.function-box {
+	clear: both;
+	width: 100%;
+	height: 0px;
+	overflow: hidden;
+	text-align: center;
+	transition: height .4s ease;
+	overflow-y: auto;
+  }
+  
+  .function-box li {
+	padding: 15px;
+	text-align: center;
+	margin-right: 100px;
+	list-style: none;
+	font-size: 14px;
+  }
+  
+  .function-box input[type="checkbox"] {
+	position: absolute;
+	opacity: 0;
+	height: 0px;
+  }
+  
+  .function-box input[type="checkbox"]:checked + .function-box {
+	height: 300px;
+  }
+
 .slide3 {
 	clear: both;
 	width: 100%;
@@ -136,6 +167,34 @@ li a {
 #touch3:checked + .slide3 {
 	height: 300px;
 }
+
+.function-box {
+	clear: both;
+	width: 100%;
+	height: 0px;
+	overflow: hidden;
+	text-align: center;
+	transition: height .4s ease;
+	overflow-y: auto;
+  }
+  
+  .function-box li {
+	padding: 15px;
+	text-align: center;
+	margin-right: 100px;
+	list-style: none;
+	font-size: 14px;
+  }
+  
+  .function-box input[type="checkbox"] {
+	position: absolute;
+	opacity: 0;
+	height: 0px;
+  }
+  
+  .function-box input[type="checkbox"]:checked + .function-box {
+	height: 300px;
+  }
 
 .slide4 {
 	clear: both;
@@ -165,6 +224,34 @@ li a {
 	height: 300px;
 }
 
+.function-box {
+	clear: both;
+	width: 100%;
+	height: 0px;
+	overflow: hidden;
+	text-align: center;
+	transition: height .4s ease;
+	overflow-y: auto;
+  }
+  
+  .function-box li {
+	padding: 15px;
+	text-align: center;
+	margin-right: 100px;
+	list-style: none;
+	font-size: 14px;
+  }
+  
+  .function-box input[type="checkbox"] {
+	position: absolute;
+	opacity: 0;
+	height: 0px;
+  }
+  
+  .function-box input[type="checkbox"]:checked + .function-box {
+	height: 300px;
+  }
+
 .slide5 {
 	clear: both;
 	width: 100%;
@@ -192,3 +279,31 @@ li a {
 #touch5:checked + .slide5 {
 	height: 300px;
 }
+
+.function-box {
+	clear: both;
+	width: 100%;
+	height: 0px;
+	overflow: hidden;
+	text-align: center;
+	transition: height .4s ease;
+	overflow-y: auto;
+  }
+  
+  .function-box li {
+	padding: 15px;
+	text-align: center;
+	margin-right: 100px;
+	list-style: none;
+	font-size: 14px;
+  }
+  
+  .function-box input[type="checkbox"] {
+	position: absolute;
+	opacity: 0;
+	height: 0px;
+  }
+  
+  .function-box input[type="checkbox"]:checked + .function-box {
+	height: 300px;
+  }

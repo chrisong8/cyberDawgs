@@ -21,7 +21,7 @@ function Viz() {
                     </ul>
                 </nav>
 
-                <nav>
+                <nav className="viz-nav">
                     <label for="touch2"><div className="viz-title">Protect Function</div></label>               
                     <input type="checkbox" id="touch2"></input>
 
@@ -36,7 +36,7 @@ function Viz() {
                     </ul>
                 </nav>
 
-                <nav>
+                <nav className="viz-nav"> 
                     <label for="touch3"><div className="viz-title">Detect Function</div></label>               
                     <input type="checkbox" id="touch3"></input>
 
@@ -48,7 +48,7 @@ function Viz() {
                     </ul>
                 </nav>
 
-                <nav>
+                <nav className="viz-nav">
                     <label for="touch4"><div className="viz-title">Respond Function</div></label>               
                     <input type="checkbox" id="touch4"></input>
 
@@ -62,7 +62,7 @@ function Viz() {
                     </ul>
                 </nav>
 
-                <nav>
+                <nav className="viz-nav">
                     <label for="touch5"><div className="viz-title">Recover Function</div></label>               
                     <input type="checkbox" id="touch5"></input>
 

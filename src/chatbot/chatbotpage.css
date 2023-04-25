@@ -3,11 +3,12 @@
     justify-content: space-between;
     font-family: 'Questrial', sans-serif;
     background-color: black;
+    height: 100vh;
 }
 
 .chatbotPage #pane {
     border: 3px black;
-    border-radius: "3px";
+    border-radius: "10px";
     outline-style: solid;
 }
 
@@ -17,7 +18,22 @@
 
 .bot {
     background-color: black;
+    width: 50%; /* set the width to 50% */
+    height: 100%; /* set the height to 100% */
 }
+
+html, body {
+    height: 100%;
+  }
+  
+  #root {
+    height: 100%;
+  }
+  
+  .react-chatbot-kit-chat-container {
+    height: 100%;
+  }
+  
 
 /* fit to website full height */
 .react-chatbot-kit-chat-container {
