@@ -1,7 +1,7 @@
 import React from "react";
 import './login.css'
 
-// make sure header does not show on this page
+// TODO: make sure header does not show on this page
 function Login() {
     return (
         <div>

@@ -6,6 +6,7 @@ import ask
 app = Flask(__name__)
 CORS(app)
 
+# "server" for NLP model
 @app.route("/api", methods=(["POST"]))
 def ask_main():
     query = request.get_json()

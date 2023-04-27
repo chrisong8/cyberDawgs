@@ -1,7 +1,7 @@
 import React from "react";
 import './viz.css'
 
-// TODO: Add data viz and style (ensure left-aligned)
+// org chart
 function Viz() {
     return (
         <div>

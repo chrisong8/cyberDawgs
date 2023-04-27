@@ -18,9 +18,9 @@ const config = {
   ],
   customComponents: {
     // Replaces the default header
-    header: () => <div style={{ backgroundColor: 'black', borderRadius: "3px" , color: "white"}}></div>,
+    header: () => <div style={{ backgroundColor: 'black' , color: "white"}}></div>,
     // Replaces the default bot avatar
-    botAvatar: (props) => <img src='asdf.png' style={{padding: "5px", position: "relative"}}></img>,
+    // botAvatar: (props) => <img src='asdf.png' style={{position: "relative"}}></img>,
 
   //  // Replaces the default user icon
   //  userAvatar: (props) => <MyCustomAvatar {...props} />,

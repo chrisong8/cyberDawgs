@@ -3,13 +3,11 @@
     justify-content: space-between;
     font-family: 'Questrial', sans-serif;
     background-color: black;
-    height: 100vh;
+    height: 100%;
 }
 
 .chatbotPage #pane {
-    border: 3px black;
     border-radius: "10px";
-    outline-style: solid;
 }
 
 .checklist {
@@ -38,13 +36,14 @@ html, body {
 /* fit to website full height */
 .react-chatbot-kit-chat-container {
     border: white 4px;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .react-chatbot-kit-chat-inner-container {
     background-color: #3E3E3E;
     /* hard coded */
-    width: 525px;
+    width: 550px;
+    padding-top: 15px;
 }
 
 .react-chatbot-kit-chat-header {
@@ -52,7 +51,7 @@ html, body {
 }
 
 .react-chatbot-kit-chat-input-container {
-    width: 525px;
+    width: 550px;
 }
 
 .react-chatbot-kit-chat-message-container {
@@ -106,7 +105,6 @@ button.react-chatbot-kit-chat-btn-send svg {
 
 /* change icon? */
 .react-chatbot-kit-chat-bot-avatar-icon {
-    content: "NNNN"
 }
 
 /* change avatar letter/icon */

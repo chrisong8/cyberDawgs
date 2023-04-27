@@ -1,6 +1,6 @@
 import React from 'react';
 
-// Calls appropriate function based on message sent by user
+// Calls appropriate response function based on message inputted by user
 const MessageParser = ({ children, actions }) => {
   const parse = (message) => {
     if (message.toLowerCase() === "hi" || message.toLowerCase() === "hello") {

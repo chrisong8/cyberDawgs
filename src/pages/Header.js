@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import './header.css'
 
-// TODO: insert navbar/links to other pages, smt like https://react-bootstrap.github.io/components/navbar/
+// header/nav bar
 function Header() {
     return (
       <div className='header'>

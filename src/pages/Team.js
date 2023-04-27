@@ -1,12 +1,8 @@
-// our team page
-
 import React from "react";
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import './team.css'
 
-// TODO: arrange into neater formation and add links
-// TODO: add info and style cards
 function Team() {
     return(
         <div className="section-container">

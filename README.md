@@ -1,1 +1,1 @@
-GitHub Repo for University of Washington iSchool Capstone project for the CyberDawgs team.
+GitHub Repo for University of Washington iSchool KPMG-sponsored Capstone project for the CyberDawgs team.

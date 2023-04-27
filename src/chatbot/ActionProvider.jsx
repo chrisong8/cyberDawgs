@@ -1,7 +1,8 @@
 import React from 'react';
 
-// Provides action functions for bot to render response
+// Provides action functions for bot to render responses to user input
 const ActionProvider = ({ createChatBotMessage, setState, children }) => {
+  // handles simple "hello" message
     const handleHello = () => {
         const botMessage = createChatBotMessage('Hello. Nice to meet you.');
     
@@ -48,7 +49,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
         }));
     };
 
-    // TODO? filter blank or inappropriate user input
+    // Can filter blank or inappropriate user input
     const idk = () => {
         const response = 'I am not sure how to answer that question... try again?'
 
@@ -60,7 +61,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
         }));
     };
 
-    // all actions must be returned
+  // Return all actions
   return (
     <div>
       {React.Children.map(children, (child) => {

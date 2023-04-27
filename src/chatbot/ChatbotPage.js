@@ -7,6 +7,7 @@ import Viz from '../pages/Viz.js'
 import 'react-chatbot-kit/build/main.css'
 import './chatbotpage.css';
 
+// main page
 function ChatbotPage() {
     return (
         <div className='chatbotPage'>
