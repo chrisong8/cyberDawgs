@@ -30,13 +30,13 @@ li a {
 }
 
 .function-box li:hover {
-    background-color: #e4e4e4;
+    background-color: #CBC3E3;
 }
 
 
 .viz-nav {
 	width: 300px; 
-	background: #d9d9d9;
+	background: #CBC3E3;
 	margin: 20px auto 0;
 }
 
