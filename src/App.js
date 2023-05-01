@@ -7,7 +7,6 @@ import Team from "./pages/Team";
 import FAQ from "./pages/FAQ"
 import Footer from "./pages/Footer";
 import ChatbotPage from "./chatbot/ChatbotPage";
-import Login from "./pages/Login"
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
             <Route path='/chatbot' element={<ChatbotPage />}/>
             <Route path='/Team' element={<Team />}/>
             <Route path='/faq' element={<FAQ />}/>
-            <Route path='/login' element={<Login />}/>
           </Routes>
         </div>
         <Footer></Footer>
