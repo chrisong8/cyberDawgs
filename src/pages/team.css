@@ -58,7 +58,7 @@
   background-color: black;
   padding-left: 7rem;
   padding-right: 7rem;
-  text-align: center;
+  text-align: left;
   font-family: 'Questrial', sans-serif;
 }
 .why-section-textbox p {
@@ -103,7 +103,7 @@
 
 .how-section-left {
   flex: 1;
-  background-image: url(/public/pics/about3.jpg);
+  background-image: url(/public/pics/kpmg.jpg);
   background-size:cover;
 }
 
@@ -125,6 +125,60 @@
   font-size: 1.3rem;
 }
 
+.feature-intro-section {
+  background-color: #191919;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.feature-intro-textbox {
+  color: white;
+  font-family: 'Questrial', sans-serif;
+}
+
+.features-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Questrial', sans-serif;
+  background-color: black;
+  color: aliceblue;
+}
+
+.features-title {
+  font-size: 2.2rem;
+}
+
+.features-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 33%;
+}
+
+.feature-image {
+  width: 22rem;
+  height: 30rem;
+  object-fit: cover;
+}
+
+.feature-title {
+  font-size: 1.2rem;
+  margin: 15px 0;
+}
+
+.feature-description {
+  text-align: center;
+  font-size: 1.1rem;
+}
 
 
 .youtube-section {
@@ -172,4 +226,40 @@
 .cardDesc {
   font-family: 'Questrial', sans-serif;
   font-size: .9rem;
+}
+
+.status-section {
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: url(/public/pics/about5.jpg);
+}
+
+.status-section {
+  background-size: cover;
+  background-position: center;
+}
+
+.about-page-section-textbox {
+  background-color: black;
+  padding: 1.5rem;
+  max-width: 35rem;
+  text-align: center;
+}
+
+.status-section-title {
+  margin-bottom: 1rem;
+  font-family: 'Questrial', sans-serif;
+  font-size: 2.5rem;
+}
+
+.status-section-description {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-family: 'Questrial', sans-serif;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
 }
