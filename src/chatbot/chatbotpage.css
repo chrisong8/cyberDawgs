@@ -42,7 +42,7 @@ html, body {
 .react-chatbot-kit-chat-inner-container {
     background-color: #3E3E3E;
     /* hard coded */
-    width: 550px;
+    width: 525px;
     padding-top: 15px;
 }
 
@@ -50,11 +50,13 @@ html, body {
     background-color: #3E3E3E;
 }
 
+/* change along with chat-inner-container */
 .react-chatbot-kit-chat-input-container {
-    width: 550px;
+    width: 525px;
 }
 
 .react-chatbot-kit-chat-message-container {
+
 }
 
 .react-chatbot-kit-chat-input {
@@ -64,7 +66,9 @@ html, body {
 .react-chatbot-kit-user-chat-message {
     color: black;
     font-family: 'Questrial', sans-serif;
-    width: 10000px;
+    width: 1000px;
+    font-size: 14px;
+    line-height: 1.4;
 }
 
 .react-chatbot-kit-chat-input-form {
@@ -100,7 +104,6 @@ button.react-chatbot-kit-chat-btn-send svg {
 }
 
 .react-chatbot-kit-chat-bot-avatar {
-    content: "NNNN"
 }
 
 /* change icon? */
@@ -116,10 +119,11 @@ button.react-chatbot-kit-chat-btn-send svg {
     color: black;
     font-family: 'Questrial', sans-serif;
     width: 400px;
+    font-size: 14px;
+    line-height: 1.4;
 }
 
 .react-chatbot-kit-chat-bot-message-arrow {
-
 }
 
 .react-chatbot-kit-chat-bot-loading-icon-container {
