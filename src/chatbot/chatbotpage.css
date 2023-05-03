@@ -32,23 +32,32 @@ body,
 }
 
 .react-chatbot-kit-chat-inner-container {
-  background-color: #3E3E3E;
-  width: 550px;
-  padding-top: 15px;
+    background-color: #3E3E3E;
+    /* hard coded */
+    width: 525px;
+    padding-top: 15px;
 }
 
 .react-chatbot-kit-chat-header {
   background-color: #3E3E3E;
 }
 
+/* change along with chat-inner-container */
 .react-chatbot-kit-chat-input-container {
-  width: 550px;
+    width: 550px;
+}
+
+.react-chatbot-kit-chat-message-container {
+}
+
+.react-chatbot-kit-chat-input {
+    font-family: 'Questrial', sans-serif;
 }
 
 .react-chatbot-kit-user-chat-message {
-  color: black;
-  font-family: 'Questrial', sans-serif;
-  width: 10000px;
+    color: black;
+    font-family: 'Questrial', sans-serif;
+    width: 10000px;
 }
 
 .react-chatbot-kit-chat-input-form {
@@ -59,8 +68,62 @@ body,
   background-color: black;
 }
 
+.react-chatbot-kit-chat-bot-message-container {
+}
+
+/* p::after {
+    content: "NOVA";
+} */
+
+.react-chatbot-kit-chat-bot-avatar-container {
+}
+
+.react-chatbot-kit-chat-bot-avatar {
+    content: "NNNN"
+}
+
+/* change icon? */
+.react-chatbot-kit-chat-bot-avatar-icon {
+}
+
+/* change avatar letter/icon */
+.react-chatbot-kit-chat-bot-avatar-letter {
+}
+
+/* also hard coded */
 .react-chatbot-kit-chat-bot-message {
-  color: black;
-  font-family: 'Questrial', sans-serif;
-  width: 400px;
+    color: black;
+    font-family: 'Questrial', sans-serif;
+    width: 400px;
+}
+
+.react-chatbot-kit-chat-bot-message-arrow {
+
+}
+
+.react-chatbot-kit-chat-bot-loading-icon-container {
+}
+
+.chatbot-loader-container {
+}
+
+#chatbot-loader #chatbot-loader-dot1 {
+}
+
+#chatbot-loader #chatbot-loader-dot2 {
+}
+
+#chatbot-loader #chatbot-loader-dot3 {
+}
+
+.react-chatbot-kit-error {
+}
+
+.react-chatbot-kit-error-container {
+}
+
+.react-chatbot-kit-error-header {
+}
+
+.react-chatbot-kit-error-docs {
 }
