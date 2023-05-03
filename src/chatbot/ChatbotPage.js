@@ -6,6 +6,8 @@ import Chatbot from 'react-chatbot-kit'
 import Viz from '../pages/Viz.js'
 import 'react-chatbot-kit/build/main.css'
 import './chatbotpage.css';
+import logo from './new-logo.png';
+
 
 // main page
 function ChatbotPage() {
@@ -23,11 +25,12 @@ function ChatbotPage() {
                 }}>
                 <Chatbot
                     headerText="Chat with NOVA"
+                    headerComponent={<img src={logo} alt="New logo"/>}
                     config={config}
                     messageParser={MessageParser}
                     actionProvider={ActionProvider}
                     // validator={validateInput}
-                    placeholderText='Type your message here...'
+                    placeholderText='Ask a question related to the NIST CSF ...'
                 />
             </div>
         </div>

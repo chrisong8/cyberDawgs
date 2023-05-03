@@ -10,7 +10,7 @@ function FAQ() {
       id: 1,
       question: "What is the NIST CSF?",
       answer:
-        "The NIST Cybersecurity Framework (CSF) is a set of guidelines and best practices developed by the National Institute of Standards and Technology (NIST) to help organizations manage and reduce cybersecurity risks. The framework provides a common language and methodology for organizations to identify, assess, and prioritize cybersecurity risks, and to develop and implement effective risk management strategies."
+        "The NIST Cybersecurity Framework (CSF) is a set of guidelines and best practices developed by the National Institute of Standards and Technology (NIST) to help organizations manage and reduce cybersecurity risks by developing and implementing effective risk management strategies."
     },
     {
       id: 2,
@@ -40,25 +40,25 @@ function FAQ() {
       id: 6,
       question: "How does the NIST CSF differ from other cybersecurity frameworks and standards?",
       answer:
-        "The NIST CSF is a flexible, voluntary framework that provides organizations with a set of guidelines for managing and reducing cybersecurity risks. Unlike other frameworks and standards, the NIST CSF is not prescriptive and does not dictate specific security controls or technologies. Instead, it focuses on risk management and encourages organizations to identify and prioritize their most critical assets and systems."
+        "The NIST CSF is a flexible, voluntary framework that provides organizations with a set of guidelines for managing and reducing cybersecurity risks. Unlike other frameworks and standards, the NIST CSF is not prescriptive. Instead, it focuses on risk management and encourages organizations to identify and prioritize their most critical assets and systems."
     },
     {
       id: 7,
       question: "What are some of the benefits of implementing the NIST CSF?",
       answer:
-        "Some of the benefits of implementing the NIST CSF include improved risk management, better communication and collaboration among stakeholders, increased visibility into cybersecurity risks and vulnerabilities, and greater alignment with industry best practices. Implementing the NIST CSF can also help organizations comply with regulatory requirements and build customer trust by demonstrating their commitment to cybersecurity."
+        "Some of the benefits of implementing the NIST CSF include improved risk management, better communication and collaboration among stakeholders, increased visibility into cybersecurity risks and vulnerabilities, and greater alignment with industry best practices."
     },
     {
       id: 8,
       question: "What are some of the challenges organizations may face when implementing the NIST CSF?",
       answer:
-        "Some of the challenges organizations may face when implementing the NIST CSF include a lack of resources, difficulty aligning the framework with existing security programs and processes, and resistance from stakeholders who are not familiar with the framework or its benefits. Additionally, some organizations may struggle to customize the framework to fit their unique needs or to keep pace with evolving cybersecurity risks and threats."
+        "Some of the challenges organizations may face when implementing the NIST CSF include difficulty aligning the framework with existing security programs and processes, and resistance from stakeholders who are not familiar with the framework or its benefits. Additionally, some organizations may struggle to customize the framework to fit their unique needs."
     },
     {
       id: 9,
       question: "Can the NIST CSF be customized to fit the unique needs of an organization?",
       answer:
-        "Yes, the NIST CSF is designed to be flexible and can be customized to fit the unique needs of any organization. The framework includes a set of core components that can be tailored to meet an organization's specific requirements, such as business objectives, and regulatory compliance obligations. Organizations can also use the framework to prioritize their most critical assets and systems and to develop customized risk management plans."
+        "Yes, The framework includes a set of core components that can be tailored to meet an organization's specific requirements. Organizations can also use the framework to prioritize their most critical assets and systems and to develop customized risk management plans."
     }
   ];
 
