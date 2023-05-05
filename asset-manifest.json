@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/cyberDawgs/static/css/main.b96dbd8e.css",
+    "main.js": "/cyberDawgs/static/js/main.49c20f98.js",
+    "static/js/787.d7005703.chunk.js": "/cyberDawgs/static/js/787.d7005703.chunk.js",
+    "static/media/about1.jpg": "/cyberDawgs/static/media/about1.e7c783f64e6256740b9e.jpg",
+    "static/media/about2.jpg": "/cyberDawgs/static/media/about2.1d68a23c1371435d0ea8.jpg",
+    "static/media/about5.jpg": "/cyberDawgs/static/media/about5.123c8893f2ddb0b5bf93.jpg",
+    "static/media/about4.jpg": "/cyberDawgs/static/media/about4.873677d268db6c85bb77.jpg",
+    "static/media/kpmg.jpg": "/cyberDawgs/static/media/kpmg.c866d2258dc460f67c1c.jpg",
+    "static/media/new-logo.png": "/cyberDawgs/static/media/new-logo.0bbb57d993ee4b3a2631.png",
+    "index.html": "/cyberDawgs/index.html",
+    "main.b96dbd8e.css.map": "/cyberDawgs/static/css/main.b96dbd8e.css.map",
+    "main.49c20f98.js.map": "/cyberDawgs/static/js/main.49c20f98.js.map",
+    "787.d7005703.chunk.js.map": "/cyberDawgs/static/js/787.d7005703.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b96dbd8e.css",
+    "static/js/main.49c20f98.js"
+  ]
+}
