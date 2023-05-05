@@ -4,8 +4,7 @@
 .env
 
 # API key file/folder
-/backend
-
+secret.txt
 
 # dependencies
 /node_modules
@@ -17,7 +16,7 @@
 /coverage
 
 # production
-/build
+/frontend/build
 
 # misc
 .DS_Store

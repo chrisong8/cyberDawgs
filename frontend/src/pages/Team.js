@@ -47,17 +47,17 @@ function Team() {
                     <div className="feature">
                     <img className="feature-image" src="/pics/kpmg.jpg" alt="Feature 1" />
                     <h2 className="feature-title">Chart Feature</h2>
-                    <p className="feature-description">Nova is accompanied by an informative chart designed to complement its interactive learning experience. The chart visually presents essential details about the NIST Cybersecurity Framework (CSF), emphasizing its key features and the categories associated with it. By offering an organized overview of the CSF components, the chart helps users quickly grasp the structure and relationships between these elements.</p>
+                    <p className="feature-description">NOVA is accompanied by an informative chart designed to complement its interactive learning experience. The chart visually presents essential details about the NIST Cybersecurity Framework (CSF), emphasizing its key features and the categories associated with it. By offering an organized overview of the CSF components, the chart helps users quickly grasp the structure and relationships between these elements.</p>
                     </div>
                     <div className="feature">
                     <img className="feature-image" src="/pics/kpmg.jpg" alt="Feature 2" />
-                    <h2 className="feature-title">Nova Response Feature</h2>
-                    <p className="feature-description">The chatbot feature of Nova is specifically engineered to provide users with high-quality, textbook-level answers to any cybersecurity-related question. Utilizing advanced natural language processing techniques, the chatbot intelligently understands user queries and delivers comprehensive, well-structured responses that are both informative and reliable.</p>
+                    <h2 className="feature-title">NOVA Response Feature</h2>
+                    <p className="feature-description">The chatbot feature of NOVA is specifically engineered to provide users with high-quality, textbook-level answers to any cybersecurity-related question. Utilizing advanced natural language processing techniques, the chatbot intelligently understands user queries and delivers comprehensive, well-structured responses that are both informative and reliable.</p>
                     </div>
                     <div className="feature">
                     <img className="feature-image" src="/pics/kpmg.jpg" alt="Feature 3" />
-                    <h2 className="feature-title">Nova Response Feature</h2>
-                    <p className="feature-description">Nova's chatbot is designed with a focus on providing expertise solely in the domain of cybersecurity. Should users ask questions unrelated to this field, the chatbot will politely decline to provide an answer, emphasizing its purpose as a specialized resource for cybersecurity information.</p>
+                    <h2 className="feature-title">NOVA Response Feature</h2>
+                    <p className="feature-description">NOVA's chatbot is designed with a focus on providing expertise solely in the domain of cybersecurity. Should users ask questions unrelated to this field, the chatbot will politely decline to provide an answer, emphasizing its purpose as a specialized resource for cybersecurity information.</p>
                     </div>
                 </div>
             </div>
@@ -118,7 +118,7 @@ function Team() {
             <div className="status-section">
                 <div className="status-section-content about-page-section-textbox">
                     <h1 className="status-section-title">Project Status</h1>
-                    <p className="status-section-description"> Nova is a University of Washington Information School Capstone project for Winter/Spring 2023. The project will be closed June 3rd and handed off to KPMG</p>
+                    <p className="status-section-description"> NOVA is a University of Washington Information School Capstone project for Winter/Spring 2023. The project will be closed June 3rd and handed off to KPMG.</p>
                 </div>
             </div>
         </div>
