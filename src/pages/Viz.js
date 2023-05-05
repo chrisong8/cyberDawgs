@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useState } from 'react';
 import './viz.css'
+import config from '../chatbot/config';
+import { createChatBotMessage } from 'react-chatbot-kit';
 
-// org chart
 function Viz() {
+    const [messageSent, setMessageSent] = useState(false);
+
+    const handleClick = () => {
+        if (!messageSent) {
+            config.initialMessages.push(
+                createChatBotMessage("Question for NOVA: What is the purpose of the Identify function in the NIST CSF?")
+            );
+            setMessageSent(true);
+        }
+    };
     return (
         <div>
             <div className="viz-2">
@@ -12,7 +23,9 @@ function Viz() {
                     <input type="checkbox" id="touch11"></input>
 
                     <ul class="slide11">
-                        <li><a href="#"><b>Question for NOVA: <u>What is the purpose of the Identify function in the NIST CSF?</u></b></a></li>
+                    <li><a href="#" onClick={handleClick}>
+                            <b>Question for NOVA: <u>What is the purpose of the Identify function in the NIST CSF?</u></b>
+                          </a></li>
                         <li><a href="#"><b><u>The Identify Categories:</u></b></a></li>
                         <li><a href="#"><b>Asset Management (ID.AM):</b> The data, personnel, devices, systems, and facilities that enable the organization to achieve business purposes are identified and managed consistent with their relative importance to business objectives and the organization’s risk strategy.<i><a href="https://csf.tools/reference/nist-cybersecurity-framework/v1-1/id/id-am/"> Click here</a></i> to learn more about the Asset Management subcategories</a></li> 
                         <li><a href="#"><b>NOVA: <u>How does Asset Management help organizations achieve their business objectives?</u></b></a></li>
@@ -97,7 +110,7 @@ function Viz() {
                         <li><a href="#"><b>Improvements (RC.IM):</b> Recovery planning and processes are improved by incorporating lessons learned into future activities.<i><a href="https://csf.tools/reference/nist-cybersecurity-framework/v1-1/rc/rc-im/"> Click here</a></i> to learn more about the Improvements subcategories</a></li> 
                         <li><a href="#"><b>NOVA: <u>Why is it important to incorporate lessons learned into Improvements for recovery planning and processes?</u></b></a></li>
                         <li><a href="#"><b>Communications (RC.CO):</b> Restoration activities are coordinated with internal and external parties, such as coordinating centers, Internet Service Providers, owners of attacking systems, victims, other CSIRTs, and vendors.<i><a href="https://csf.tools/reference/nist-cybersecurity-framework/v1-1/rc/rc-co/"> Click here</a></i> to learn more about the Communications subcategories</a></li>
-                        <li><a href="#"><b>NOVA: <u>How does effective Communications help coordinate restoration activities with internal and external parties?</u></b></a></li>
+                        <li><a href="#"><b>NOVA: <u></u></b></a></li>
                     </ul>
                 </nav>
             </div>

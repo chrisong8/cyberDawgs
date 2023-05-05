@@ -1,16 +1,22 @@
-import config from './config.js';
+import React, { useState } from 'react';
+import config from './config';
 import MessageParser from './MessageParser.jsx';
 import ActionProvider from './ActionProvider.jsx';
 
-import Chatbot from 'react-chatbot-kit'
-import Viz from '../pages/Viz.js'
-import 'react-chatbot-kit/build/main.css'
+import Chatbot from 'react-chatbot-kit';
+import Viz from '../pages/Viz.js';
+import 'react-chatbot-kit/build/main.css';
 import './chatbotpage.css';
 import logo from './new-logo.png';
 
 
-// main page
 function ChatbotPage() {
+    const [inputValue, setInputValue] = useState('');
+
+    const handleNovaQuestionClick = (questionText) => {
+        setInputValue(questionText);
+    };
+
     return (
         <div className='chatbotPage'>
             <div className='viz' id="pane" style={{
@@ -18,7 +24,7 @@ function ChatbotPage() {
                 height: "100%",
                 paddingTop: "40px"
                 }}>
-                <Viz></Viz>
+                <Viz handleNovaQuestionClick={handleNovaQuestionClick}></Viz>
             </div>
             <div className='bot' id="pane" style={{
                 width: "60%",
@@ -29,7 +35,8 @@ function ChatbotPage() {
                     config={config}
                     messageParser={MessageParser}
                     actionProvider={ActionProvider}
-                    // validator={validateInput}
+                    inputValue={inputValue}
+                    setInputValue={setInputValue}
                     placeholderText='Ask a question related to the NIST CSF ...'
                 />
             </div>
@@ -37,10 +44,5 @@ function ChatbotPage() {
     );
 }
 
-// if returns false then message will not be sent
-// filter for inappropriate
-function validateInput() {
-
-}
 
 export default ChatbotPage;
