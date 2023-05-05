@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # environment file
-/src/api/.env
+.env
 /src/api/secret.txt
 
 
