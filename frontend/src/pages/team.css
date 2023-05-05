@@ -1,0 +1,265 @@
+.section-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome-section {
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  color: white;
+  background-image: url(../../public/pics/about1.jpg);
+}
+
+.welcome-section {
+  background-size: cover;
+  background-position: center;
+}
+
+.about-page-section-textbox {
+  background-color: black;
+  padding: 1.5rem;
+  max-width: 35rem;
+  text-align: center;
+}
+
+.welcome-section-title {
+  margin-bottom: 2rem;
+  font-family: 'Questrial', sans-serif;
+  font-size: 3rem;
+}
+
+.welcome-section-description {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-family: 'Questrial', sans-serif;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+}
+
+
+.why-section {
+  display: flex;
+}
+
+.about-page-section-left {
+  flex: 1;
+  background-color: black;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  color: white;
+  text-align: center;
+}
+
+.why-section-textbox {
+  background-color: black;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  text-align: left;
+  font-family: 'Questrial', sans-serif;
+}
+.why-section-textbox p {
+  font-size: 1.2rem;
+}
+.why-section-textbox h1 {
+  font-size: 2rem;
+}
+
+.about-page-section-right {
+  flex: 1;
+  background-image: url(../../public/pics/about2.jpg);
+  background-size:cover;
+}
+
+
+.how-section {
+  display: flex;
+}
+
+.how-section-right {
+  flex: 1;
+  background-color: black;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  color: white;
+}
+
+.how-section-textbox {
+  background-color: black;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  text-align: left;
+  font-family: 'Questrial', sans-serif;
+}
+.how-section-textbox p {
+  font-size: 1.1rem;
+}
+.how-section-textbox h1 {
+  font-size: 2rem;
+}
+
+.how-section-left {
+  flex: 1;
+  background-image: url(../../public/pics/kpmg.jpg);
+  background-size:cover;
+}
+
+
+.team-intro-section {
+  background-color: #191919;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.team-intro-textbox {
+  color: white;
+  font-family: 'Questrial', sans-serif;
+}
+
+.team-intro-textbox .title{
+  font-size: 2.5rem;
+}
+.team-intro-textbox .subtitle{
+  font-size: 1.3rem;
+}
+
+.feature-intro-section {
+  background-color: #191919;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.feature-intro-textbox {
+  color: white;
+  font-family: 'Questrial', sans-serif;
+}
+
+.features-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Questrial', sans-serif;
+  background-color: black;
+  color: aliceblue;
+}
+
+.features-title {
+  font-size: 2.2rem;
+}
+
+.features-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 33%;
+}
+
+.feature-image {
+  width: 22rem;
+  height: 30rem;
+  object-fit: cover;
+}
+
+.feature-title {
+  font-size: 1.2rem;
+  margin: 15px 0;
+}
+
+.feature-description {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+
+.youtube-section {
+  height: 40rem;
+  background-image: url(../../public/pics/about4.jpg);
+  background-size: cover;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video {
+  max-width: 80rem;
+}
+.videobox {
+  width: 50rem;
+  height: 28rem;
+}
+.videobox iframe { top: 0; left: 0; width: 100%; height: 100%;}
+
+.team-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-card {
+  border: 1px solid #dee2e6;
+  width: calc(20% - 1rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+}
+
+.cardTitle {
+  font-family: 'Questrial', sans-serif;
+  margin-top: .5rem;
+  font-size: 1.2rem;
+}
+
+.cardDesc {
+  font-family: 'Questrial', sans-serif;
+  font-size: .9rem;
+}
+
+.status-section {
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: url(/public/pics/about5.jpg);
+}
+
+.status-section {
+  background-size: cover;
+  background-position: center;
+}
+
+.about-page-section-textbox {
+  background-color: black;
+  padding: 1.5rem;
+  max-width: 35rem;
+  text-align: center;
+}
+
+.status-section-title {
+  margin-bottom: 1rem;
+  font-family: 'Questrial', sans-serif;
+  font-size: 2.5rem;
+}
+
+.status-section-description {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-family: 'Questrial', sans-serif;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+}
