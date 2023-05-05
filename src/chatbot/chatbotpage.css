@@ -22,8 +22,7 @@ body,
 
 .bot {
   background-color: black;
-  width: 50%;
-  height: 100%;
+  flex: 1; /* fill remaining space */
 }
 
 .react-chatbot-kit-chat-container {
