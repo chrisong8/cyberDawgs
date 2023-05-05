@@ -2,11 +2,12 @@
 
 # environment file
 .env
-/src/api/secret.txt
+/backend/secret.txt
 
 
 # dependencies
 /node_modules
+/frontend/node_modules
 /.pnp
 .pnp.js
 
