@@ -4,7 +4,7 @@ import React from "react";
 function Avatar() {
     return (
         <div>
-            <img src='sundar.jpg'></img>
+            <img src=''></img>
         </div>
     );
 }
