@@ -20,7 +20,7 @@ function ChatbotPage() {
     return (
         <div className='chatbotPage'>
             <div className='viz' id="pane" style={{
-                width: "38.68%",
+                width: "20%",
                 height: "100%",
                 paddingTop: "40px"
                 }}>
