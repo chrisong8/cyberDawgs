@@ -38,7 +38,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
             console.error("Error with fetch" + error);
           });
       } catch (error) {
-          console.error(`FETCH: ${error}`);
+          console.error(`Failed to fetch: ${error}`);
       }
 
       let botMessage = answer;
