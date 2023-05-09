@@ -14,7 +14,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
 
     // handles questions about NIST CSF thru NLP model
     const nlp = async (message) => {
-        let url = 'http://127.0.0.1:5000/api';
+        let url = 'https://nistbot.herokuapp.com/api';
 
         console.log(JSON.stringify(message));
 
