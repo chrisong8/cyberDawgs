@@ -47,17 +47,41 @@ function Team() {
                     <div className="feature">
                     <img className="feature-image" src="/pics/kpmg.jpg" alt="Feature 1" />
                     <h2 className="feature-title">Chart Feature</h2>
-                    <p className="feature-description">NOVA is accompanied by an informative chart designed to complement its interactive learning experience. The chart visually presents essential details about the NIST Cybersecurity Framework (CSF), emphasizing its key features and the categories associated with it. By offering an organized overview of the CSF components, the chart helps users quickly grasp the structure and relationships between these elements.</p>
+                    <ul className="feature-description">
+                        <li>
+                            An informative chart designed to complement NOVA's interactive learning experience
+                        </li>
+                        <li>
+                            Visually presents the NIST CSF's key features and associated categories
+                        </li>
+                        <li>
+                            Helps users quickly grasp the structure and relationships between elements with an organized overview
+                        </li>
+                    </ul>
                     </div>
                     <div className="feature">
                     <img className="feature-image" src="/pics/kpmg.jpg" alt="Feature 2" />
-                    <h2 className="feature-title">NOVA Response Feature</h2>
-                    <p className="feature-description">The chatbot feature of NOVA is specifically engineered to provide users with high-quality, textbook-level answers to any cybersecurity-related question. Utilizing advanced natural language processing techniques, the chatbot intelligently understands user queries and delivers comprehensive, well-structured responses that are both informative and reliable.</p>
+                    <h2 className="feature-title">NOVA Chatbot Feature</h2>
+                    <ul className="feature-description">
+                        <li>
+                            NOVA is specifically engineered to provide users with high-quality, textbook-level answers to any cybersecurity-related question
+                        </li>
+                        <li>
+                            Utilizing advanced natural language processing, the chatbot intelligently understands user queries and delivers comprehensive, well-structured responses that are both informative and reliable
+                        </li>
+                    </ul>
                     </div>
                     <div className="feature">
                     <img className="feature-image" src="/pics/kpmg.jpg" alt="Feature 3" />
                     <h2 className="feature-title">NOVA Response Feature</h2>
-                    <p className="feature-description">NOVA's chatbot is designed with a focus on providing expertise solely in the domain of cybersecurity. Should users ask questions unrelated to this field, the chatbot will politely decline to provide an answer, emphasizing its purpose as a specialized resource for cybersecurity information.</p>
+                    <ul className="feature-description">
+                        <li>
+                        NOVA is designed with a focus on providing expertise solely in the domain of cybersecurity
+                        </li>
+                        <li>
+                        As a specialized resource, NOVA will decline to provide an answer to unrelated questions
+                        </li>
+                    </ul>
                     </div>
                 </div>
             </div>
