@@ -4,7 +4,7 @@ import MessageParser from './MessageParser.jsx';
 import ActionProvider from './ActionProvider.jsx';
 
 import Chatbot from 'react-chatbot-kit';
-import Viz from '../pages/Viz.js';
+import Viz from '../pages/Viz copy.js';
 import 'react-chatbot-kit/build/main.css';
 import './chatbotpage.css';
 import logo from './new-logo.png';
@@ -20,14 +20,14 @@ function ChatbotPage() {
     return (
         <div className='chatbotPage'>
             <div className='viz' id="pane" style={{
-                width: "20%",
                 height: "100%",
-                paddingTop: "40px"
+                width: "25%"
                 }}>
                 <Viz handleNovaQuestionClick={handleNovaQuestionClick}></Viz>
             </div>
             <div className='bot' id="pane" style={{
-                width: "60%",
+                height: "100%",
+                width: "75%"
                 }}>
                 <Chatbot
                     headerText="Chat with NOVA"
