@@ -23,7 +23,7 @@
   }
   
   .nav-brand {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   
   .nav-buttons {
@@ -36,23 +36,21 @@
     background-color: transparent;
     border: none;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-right: 10px;
     cursor: pointer;
     margin-bottom: 5px;
     font-family: 'Questrial', sans-serif;
   }
-  
-  .login-button {
-    background-color: #7E55F6;
-    color: #fff;
-    border: none;
-    padding: 1rem 2.7rem;
-    font-size: .8rem;
-    cursor: pointer;
-    font-family: 'Questrial', sans-serif
-  }
 
   .nav-subtext {
-    font-size: 0.8rem;
+    font-size: 1rem;
+  }
+  .iconTop{
+    display: flex;
+    align-items: flex-start;
+    background-color: black;
+  }
+  .icon {
+    max-height: 4.5em;
   }

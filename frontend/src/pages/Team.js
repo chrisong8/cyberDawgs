@@ -1,5 +1,6 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
+import { Link } from "react-router-dom";
 import './team.css'
 
 function Team() {
@@ -8,13 +9,14 @@ function Team() {
             <div className="welcome-section">
                 <div className="welcome-section-content about-page-section-textbox">
                     <h1 className="welcome-section-title">Welcome to NOVA</h1>
-                    <p className="welcome-section-description"> Nova, a website offering a captivating and interactive learning experience, leverages a friendly chatbot to help programmers of all levels explore the NIST Cybersecurity Framework, deepen their understanding of its implementation, and stay current with cutting-edge cybersecurity best practices.</p>
+                    <p className="welcome-section-description"> NOVA, a website offering a captivating and interactive learning experience, leverages a friendly chatbot to help programmers of all levels explore the NIST Cybersecurity Framework, deepen their understanding of its implementation, and stay current with cutting-edge cybersecurity best practices.</p>
+                    <Link to="/chatbot" className="nav-button">Click Here to Get Started Now!</Link>
                 </div>
             </div>
             <div className="why-section">
                 <div className="about-page-section-left">
                     <div className="why-section-textbox">
-                        <h1 className="about-page-section-subtitle">Problem Statement</h1>
+                        <h1 className="about-page-section-subtitle">Our Mission</h1>
                         <p className="about-page-section-description">
                         Small to medium-sized companies face a significant challenge, as they are disproportionately targeted for cybersecurity threats and data breaches.<br></br><br></br>To address this issue, we have developed Nova, an easy-to-use, effective, and affordable chatbot.<br></br><br></br> The impact of Nova is twofold: it empowers clients to navigate and implement the NIST framework, addressing their cybersecurity needs, while providing tailored guidance and answers to questions related to their company's unique security requirements.
                         </p>
@@ -28,11 +30,11 @@ function Team() {
                 </div>
                 <div className="how-section-right">
                     <div className="how-section-textbox">
-                        <h1 className="how-section-subtitle">Our Sponsor: KPMG</h1>
+                        <h1 className="how-section-subtitle">Our Sponsor</h1>
                         <p className="how-section-description">
                         KPMG is a global firm offering audit, tax, and advisory services to various industries, leveraging its vast network of member firms to help organizations tackle complex business challenges and drive growth.
                         <br></br><br></br> In cybersecurity, KPMG provides extensive services to safeguard information assets, manage digital risks, and ensure compliance, covering vulnerability assessment, security strategy design, and ongoing support for optimal protection.
-                        <br></br><br></br> KPMG's cybersecurity expertise enhances Nova's interactive platform, merging practical insights with Nova's chatbot to help users understand cybersecurity best practices, like the NIST Framework, ultimately strengthening business security and risk management.
+                        <br></br><br></br> KPMG's cybersecurity expertise enhances Nova's interactive platform, merging practical insights with NOVA's chatbot to help users understand cybersecurity best practices, like the NIST Framework, ultimately strengthening business security and risk management.
                         </p>
                     </div>
                 </div>

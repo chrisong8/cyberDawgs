@@ -32,7 +32,7 @@
 }
 
 .welcome-section-description {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   font-family: 'Questrial', sans-serif;
   margin-left: 3rem;
@@ -48,8 +48,8 @@
 .about-page-section-left {
   flex: 1;
   background-color: black;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   color: white;
   text-align: center;
 }
@@ -65,7 +65,7 @@
   font-size: 1.2rem;
 }
 .why-section-textbox h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 .about-page-section-right {
@@ -82,8 +82,8 @@
 .how-section-right {
   flex: 1;
   background-color: black;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   color: white;
 }
 
@@ -95,10 +95,10 @@
   font-family: 'Questrial', sans-serif;
 }
 .how-section-textbox p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 .how-section-textbox h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 .how-section-left {
@@ -171,12 +171,12 @@
 }
 
 .feature-title {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin: 15px 0;
 }
 
 .feature-description {
-  text-align: center;
+  text-align: left;
   font-size: 1.1rem;
 }
 
@@ -205,7 +205,7 @@
 }
 
 .my-card {
-  border: 1px solid #dee2e6;
+  border: 0px solid #dee2e6;
   width: calc(20% - 1rem);
   display: flex;
   flex-direction: column;

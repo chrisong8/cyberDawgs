@@ -1,18 +1,13 @@
 .viz-2 {
-  
   width: 100%;
   height: 100%;
   float: left;
   box-sizing: border-box;
   
 }
-ul {
-}
 
 h1 {
 	font-size: 1.5em;
-}
-.question {
 }
 
 .question a {
@@ -101,7 +96,6 @@ h1 {
 
 
 
-
 .slide2 {
 	clear: both;
 	width: 100%;
@@ -109,54 +103,42 @@ h1 {
 	overflow: hidden;
 	text-align: center;
 	transition: height .4s ease;
-    overflow-y: auto;
+	overflow-y: auto;
+	
 }
-  
-.slide2 li {
-	padding: 15px;
-    text-align: center;
-    margin-right: 100px;
-    list-style: none;
-    font-size: 14px;
+
+.slide2 div {
+	padding: 1em;
+	text-align: left;
+	list-style: none;
+	font-size: 1em;
 }
-  
+
+.slide2 .category {
+	text-decoration: none
+}
+
+.slide2 .subcategory {
+	text-decoration: none
+}
+
+.slide2 .question{
+	color: black;
+	font-weight: bold;
+	background-color: #cbc3e3;
+}
+
 #touch2 {
 	position: absolute;
 	opacity: 0;
 	height: 0px;
-}    
-  
-#touch2:checked + .slide2 {
-	height: 300px;
 }
 
-.function-box {
-	clear: both;
-	width: 100%;
-	height: 0px;
-	overflow: hidden;
-	text-align: center;
-	transition: height .4s ease;
-	overflow-y: auto;
-  }
-  
-  .function-box li {
-	padding: 15px;
-	text-align: center;
-	margin-right: 100px;
-	list-style: none;
-	font-size: 14px;
-  }
-  
-  .function-box input[type="checkbox"] {
-	position: absolute;
-	opacity: 0;
-	height: 0px;
-  }
-  
-  .function-box input[type="checkbox"]:checked + .function-box {
-	height: 300px;
-  }
+#touch2:checked + .slide2 {
+	height: 20em;
+}
+
+
 
 .slide3 {
 	clear: both;
@@ -165,54 +147,44 @@ h1 {
 	overflow: hidden;
 	text-align: center;
 	transition: height .4s ease;
-    overflow-y: auto;
+	overflow-y: auto;
+	
 }
-  
-.slide3 li {
-	padding: 15px;
-    text-align: center;
-    margin-right: 100px;
-    list-style: none;
-    font-size: 14px;
+
+.slide3 div {
+	padding: 1em;
+	text-align: left;
+	list-style: none;
+	font-size: 1em;
 }
-  
+
+.slide3 .category {
+	text-decoration: none
+}
+
+.slide3 .subcategory {
+	text-decoration: none
+}
+
+.slide3 .question{
+	color: black;
+	font-weight: bold;
+	background-color: #cbc3e3;
+}
+
 #touch3 {
 	position: absolute;
 	opacity: 0;
 	height: 0px;
-}    
-  
-#touch3:checked + .slide3 {
-	height: 300px;
 }
 
-.function-box {
-	clear: both;
-	width: 100%;
-	height: 0px;
-	overflow: hidden;
-	text-align: center;
-	transition: height .4s ease;
-	overflow-y: auto;
-  }
-  
-  .function-box li {
-	padding: 15px;
-	text-align: center;
-	margin-right: 100px;
-	list-style: none;
-	font-size: 14px;
-  }
-  
-  .function-box input[type="checkbox"] {
-	position: absolute;
-	opacity: 0;
-	height: 0px;
-  }
-  
-  .function-box input[type="checkbox"]:checked + .function-box {
-	height: 300px;
-  }
+#touch3:checked + .slide3 {
+	height: 20em;
+}
+
+
+
+
 
 .slide4 {
 	clear: both;
@@ -221,54 +193,43 @@ h1 {
 	overflow: hidden;
 	text-align: center;
 	transition: height .4s ease;
-    overflow-y: auto;
+	overflow-y: auto;
+	
 }
-  
-.slide4 li {
-	padding: 15px;
-    text-align: center;
-    margin-right: 100px;
-    list-style: none;
-    font-size: 14px;
+
+.slide4 div {
+	padding: 1em;
+	text-align: left;
+	list-style: none;
+	font-size: 1em;
 }
-  
+
+.slide4 .category {
+	text-decoration: none
+}
+
+.slide4 .subcategory {
+	text-decoration: none
+}
+
+.slide4 .question{
+	color: black;
+	font-weight: bold;
+	background-color: #cbc3e3;
+}
+
 #touch4 {
 	position: absolute;
 	opacity: 0;
 	height: 0px;
-}    
-  
-#touch4:checked + .slide4 {
-	height: 300px;
 }
 
-.function-box {
-	clear: both;
-	width: 100%;
-	height: 0px;
-	overflow: hidden;
-	text-align: center;
-	transition: height .4s ease;
-	overflow-y: auto;
-  }
-  
-  .function-box li {
-	padding: 15px;
-	text-align: center;
-	margin-right: 100px;
-	list-style: none;
-	font-size: 14px;
-  }
-  
-  .function-box input[type="checkbox"] {
-	position: absolute;
-	opacity: 0;
-	height: 0px;
-  }
-  
-  .function-box input[type="checkbox"]:checked + .function-box {
-	height: 300px;
-  }
+#touch4:checked + .slide4 {
+	height: 20em;
+}
+
+
+
 
 .slide5 {
 	clear: both;
@@ -277,51 +238,45 @@ h1 {
 	overflow: hidden;
 	text-align: center;
 	transition: height .4s ease;
-    overflow-y: auto;
+	overflow-y: auto;
+	
 }
-  
-.slide5 li {
-	padding: 15px;
-    text-align: center;
-    margin-right: 100px;
-    list-style: none;
-    font-size: 14px;
+
+.slide5 div {
+	padding: 1em;
+	text-align: left;
+	list-style: none;
+	font-size: 1em;
 }
-  
+
+.slide5 .category {
+	text-decoration: none
+}
+
+.slide5 .subcategory {
+	text-decoration: none
+}
+
+.slide5 .question{
+	color: black;
+	font-weight: bold;
+	background-color: #cbc3e3;
+}
+
 #touch5 {
 	position: absolute;
 	opacity: 0;
 	height: 0px;
-}    
-  
-#touch5:checked + .slide5 {
-	height: 300px;
 }
 
-.function-box {
-	clear: both;
-	width: 100%;
-	height: 0px;
-	overflow: hidden;
-	text-align: center;
-	transition: height .4s ease;
-	overflow-y: auto;
-  }
-  
-  .function-box li {
-	padding: 15px;
-	text-align: center;
-	margin-right: 100px;
-	list-style: none;
-	font-size: 14px;
-  }
-  
-  .function-box input[type="checkbox"] {
-	position: absolute;
-	opacity: 0;
-	height: 0px;
-  }
-  
-  .function-box input[type="checkbox"]:checked + .function-box {
-	height: 300px;
-  }
+#touch5:checked + .slide5 {
+	height: 20em;
+}
+
+.viz-toggle{
+	background-color: black;
+}
+
+#downarrow {
+	color:white;
+}
