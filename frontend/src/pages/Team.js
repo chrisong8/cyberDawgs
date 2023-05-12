@@ -41,13 +41,13 @@ function Team() {
             </div>
             <div className="feature-intro-section">
                 <div className="feature-intro-textbox">
-                    <p className="features-title">Nova's Key Features</p>
+                    <p className="features-title">NOVA's Key Features</p>
                 </div>
             </div>
             <div className="features-container">
                 <div className="features-section">
                     <div className="feature">
-                    <img className="feature-image" src="/pics/kpmg.jpg" alt="Feature 1" />
+                    <img className="feature-image" src="/pics/feature1.jpg" alt="Feature 1" />
                     <h2 className="feature-title">Chart Feature</h2>
                     <ul className="feature-description">
                         <li>
@@ -62,7 +62,7 @@ function Team() {
                     </ul>
                     </div>
                     <div className="feature">
-                    <img className="feature-image" src="/pics/kpmg.jpg" alt="Feature 2" />
+                    <img className="feature-image" src="/pics/feature2.jpg" alt="Feature 2" />
                     <h2 className="feature-title">NOVA Chatbot Feature</h2>
                     <ul className="feature-description">
                         <li>
@@ -74,7 +74,7 @@ function Team() {
                     </ul>
                     </div>
                     <div className="feature">
-                    <img className="feature-image" src="/pics/kpmg.jpg" alt="Feature 3" />
+                    <img className="feature-image" src="/pics/feature3.jpg" alt="Feature 3" />
                     <h2 className="feature-title">NOVA Response Feature</h2>
                     <ul className="feature-description">
                         <li>
@@ -90,7 +90,7 @@ function Team() {
             <div className="youtube-section">
                 <div className="video">
                     <div className="videobox">
-                        <iframe src="https://www.youtube.com/embed/Wz7hosdzOjA" title="UW INFO 490 W22  - CyberDawgs" allowFullScreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/aOdWErTIaEI" title="UW INFO 491 Sp23 - NOVA" allowFullScreen></iframe>
                     </div>
                 </div>
             </div>
@@ -106,6 +106,7 @@ function Team() {
                     <Card.Body>
                         <Card.Title className="cardTitle">Chris Ong</Card.Title>
                         <Card.Text className="cardDesc">Software Developer</Card.Text>
+                        <Card.Text className="cardDesc">https://www.linkedin.com/in/chriscyong/</Card.Text>
                     </Card.Body>
                 </Card>
 
@@ -114,6 +115,7 @@ function Team() {
                     <Card.Body>
                         <Card.Title className="cardTitle">Daniel Cavazos</Card.Title>
                         <Card.Text className="cardDesc">Data Scientist</Card.Text>
+                        <Card.Text className="cardDesc">https://www.linkedin.com/in/cavazd/</Card.Text>
                     </Card.Body>
                 </Card>
 
@@ -121,7 +123,8 @@ function Team() {
                     <Card.Img variant="top" src="/pics/matt.JPG" className="card-img" />
                     <Card.Body>
                         <Card.Title className="cardTitle">Matthew Balgan</Card.Title>
-                        <Card.Text className="cardDesc">Software Developer</Card.Text>
+                        <Card.Text className="cardDesc">Project Manager | Software Developer</Card.Text>
+                        <Card.Text className="cardDesc">https://www.linkedin.com/in/matthewbalgan</Card.Text>
                     </Card.Body>
                 </Card>
 
@@ -130,6 +133,7 @@ function Team() {
                     <Card.Body>
                         <Card.Title className="cardTitle">Connor Fink</Card.Title>
                         <Card.Text className="cardDesc">Data Scientist</Card.Text>
+                        <Card.Text className="cardDesc">https://www.linkedin.com/in/connor-fink-uw/</Card.Text>
                     </Card.Body>
                 </Card>
 
@@ -138,6 +142,7 @@ function Team() {
                     <Card.Body>
                         <Card.Title className="cardTitle">Million Werede</Card.Title>
                         <Card.Text className="cardDesc">Data Scientist</Card.Text>
+                        <Card.Text className="cardDesc">https://www.linkedin.com/in/millionwerede/</Card.Text>
                     </Card.Body>
                 </Card>
             </div>

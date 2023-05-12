@@ -9,7 +9,7 @@ function Viz() {
                     <label for="touch11">
                         <div className="viz-title">Identify Function</div>
                         <div className="viz-toggle">
-                            <i id="downarrow"className="fas fa-chevron-down"></i>
+                            <i id="downarrow" className="fas fa-chevron-down down2"></i>
                         </div>
                     </label>
                     <input type="checkbox" id="touch11" />
@@ -29,7 +29,7 @@ function Viz() {
                             <a href="https://csf.tools/reference/nist-cybersecurity-framework/v1-1/id/id-am/"> Click here to learn more about the Asset Management subcategories from the CSF documentation.</a>
                         </div>
                         <div className="question">
-                            <a href="#"><b>Question for NOVA: <br></br><u>How does Asset Management help organizations achieve their business objectives?</u></b></a>
+                            <a href="#"><b>Question for NOVA: <br></br>How does Asset Management help organizations achieve their business objectives?</b></a>
                         </div>
                         <div className="subcategory">
                             <a href="#">
@@ -40,7 +40,7 @@ function Viz() {
                             <a href="https://csf.tools/reference/nist-cybersecurity-framework/v1-1/id/id-be/"> Click here to learn more about the Business Environment subcategories from the CSF documentation.</a>
                         </div>
                         <div className="question">
-                            <a href="#"><b>Question for NOVA: <br></br><u>What role does understanding the Business Environment play in cybersecurity?</u></b></a>
+                            <a href="#"><b>Question for NOVA: <br></br>What role does understanding the Business Environment play in cybersecurity?</b></a>
                         </div>
                         <div className="subcategory">
                             <a href="#">
@@ -51,7 +51,7 @@ function Viz() {
                             <a href="https://csf.tools/reference/nist-cybersecurity-framework/v1-1/id/id-gv/"> Click here to learn more about the Governance subcategories from the CSF documentation..</a>
                         </div>
                         <div className="question">
-                            <a href="#"><b>Question for NOVA: <br></br><u>Why is Governance important in managing cybersecurity risk?</u></b></a>
+                            <a href="#"><b>Question for NOVA: <br></br>Why is Governance important in managing cybersecurity risk?</b></a>
                         </div>
                         <div className="subcategory">
                             <a href="#">
@@ -62,7 +62,7 @@ function Viz() {
                             <a href="https://csf.tools/reference/nist-cybersecurity-framework/v1-1/id/id-ra/"> Click here to learn more about the Risk Assessment subcategories from the CSF documentation..</a>
                         </div>
                         <div className="question">
-                            <a href="#"><b>Question for NOVA: <br></br><u>How does Risk Assessment contribute toan organization's understanding of cybersecurity risk?</u></b></a>
+                            <a href="#"><b>Question for NOVA: <br></br>How does Risk Assessment contribute toan organization's understanding of cybersecurity risk?</b></a>
                         </div>
                         <div className="subcategory">
                             <a href="#">
@@ -73,7 +73,7 @@ function Viz() {
                             <a href="https://csf.tools/reference/nist-cybersecurity-framework/v1-1/id/id-rm/"> Click here to learn more about the Risk Management Strategy subcategories from the CSF documentation..</a>
                         </div>
                         <div className="question">
-                            <a href="#"><b>Question for NOVA: <br></br><u>What is the purpose of establishing a Risk Management Strategy?</u></b></a>
+                            <a href="#"><b>Question for NOVA: <br></br>What is the purpose of establishing a Risk Management Strategy?</b></a>
                         </div>
                     </div>
                 </nav>
@@ -102,7 +102,7 @@ function Viz() {
                             <a href="https://csf.tools/reference/nist-cybersecurity-framework/v1-1/pr/pr-ac/"> Click here to learn more about the Access Control subcategories from the CSF documentation.</a>
                         </div>
                         <div className="question">
-                            <a href="#"><b>Question for NOVA: <br></br><u>How does Access Control help secure an organization's assets?</u></b></a>
+                            <a href="#"><b>Question for NOVA: <br></br>How does Access Control help secure an organization's assets?</b></a>
                         </div>
                         <div className="subcategory">
                             <a href="#">
@@ -113,7 +113,7 @@ function Viz() {
                             <a href="https://csf.tools/reference/nist-cybersecurity-framework/v1-1/pr/pr-at/"> Click here to learn more about the Awareness and Training subcategories from the CSF documentation.</a>
                         </div>
                         <div className="question">
-                            <a href="#"><b>Question for NOVA: <br></br><u>What is the importance of Awareness and Training in cybersecurity?</u></b></a>
+                            <a href="#"><b>Question for NOVA: <br></br>What is the importance of Awareness and Training in cybersecurity?</b></a>
                         </div>
                         <div className="subcategory">
                             <a href="#">
@@ -124,7 +124,7 @@ function Viz() {
                             <a href="https://csf.tools/reference/nist-cybersecurity-framework/v1-1/pr/pr-ds/"> Click here to learn more about the Data Security subcategories.</a>
                         </div>
                         <div className="question">
-                            <a href="#"><b>Question for NOVA: <br></br><u>How does Data Security maintain the confidentiality, integrity, and availability of information?</u></b></a>
+                            <a href="#"><b>Question for NOVA: <br></br>How does Data Security maintain the confidentiality, integrity, and availability of information?</b></a>
                         </div>
                         <div className="subcategory">
                             <a href="#">
@@ -135,7 +135,7 @@ function Viz() {
                             <a href="https://csf.tools/reference/nist-cybersecurity-framework/v1-1/pr/pr-ip/"> Click here to learn more about the Information Protection Processes and Procedures subcategories.</a>
                         </div>
                         <div className="question">
-                            <a href="#"><b>Question for NOVA: <br></br><u>What are the key components of Information Protection Processes and Procedures?</u></b></a>
+                            <a href="#"><b>Question for NOVA: <br></br>What are the key components of Information Protection Processes and Procedures?</b></a>
                         </div>
                         <div className="subcategory">
                             <a href="#">
@@ -146,7 +146,7 @@ function Viz() {
                             <a href="https://csf.tools/reference/nist-cybersecurity-framework/v1-1/pr/pr-ma/"> Click here to learn more about the Maintenance subcategories.</a>
                         </div>
                         <div className="question">
-                            <a href="#"><b>Question for NOVA: <br></br><u>Why is Maintenance important for the security of industrial control and information systems?</u></b></a>
+                            <a href="#"><b>Question for NOVA: <br></br>Why is Maintenance important for the security of industrial control and information systems?</b></a>
                         </div>
                         <div className="subcategory">
                             <a href="#">
@@ -157,7 +157,7 @@ function Viz() {
                             <a href="https://csf.tools/reference/nist-cybersecurity-framework/v1-1/pr/pr-pt/"> Click here to learn more about the Protective Technology subcategories</a>
                         </div>
                         <div className="question">
-                            <a href="#"><b>Question for NOVA: <br></br><u>How do Protective Technologies help ensure system and asset security?</u></b></a>
+                            <a href="#"><b>Question for NOVA: <br></br>How do Protective Technologies help ensure system and asset security?</b></a>
                         </div>
                     </div>
                 </nav>
@@ -186,7 +186,7 @@ function Viz() {
                             <a href=" https://csf.tools/reference/nist-cybersecurity-framework/v1-1/de/de-ae/"> Click here to learn more about the Anomalies and Events subcategories.</a>
                         </div>
                         <div className="question">
-                            <a href="#"><b>Question for NOVA: <br></br><u>How do Anomalies and Events detection contribute to timely cybersecurity event identification?</u></b></a>
+                            <a href="#"><b>Question for NOVA: <br></br>How do Anomalies and Events detection contribute to timely cybersecurity event identification?</b></a>
                         </div>
                         <div className="subcategory">
                             <a href="#">
@@ -197,7 +197,7 @@ function Viz() {
                             <a href=" https://csf.tools/reference/nist-cybersecurity-framework/v1-1/de/de-cm/"> Click here to learn more about the Security Continuous Monitoring subcategories.</a>
                         </div>
                         <div className="question">
-                            <a href="#"><b>Question for NOVA: <br></br><u>What is the importance of Security Continuous Monitoring in detecting cybersecurity events?</u></b></a>
+                            <a href="#"><b>Question for NOVA: <br></br>What is the importance of Security Continuous Monitoring in detecting cybersecurity events?</b></a>
                         </div>
                         <div className="subcategory">
                             <a href="#">
@@ -208,7 +208,7 @@ function Viz() {
                             <a href=" https://csf.tools/reference/nist-cybersecurity-framework/v1-1/de/de-dp/"> Click here to learn more about the Detection Processes subcategories.</a>
                         </div>
                         <div className="question">
-                            <a href="#"><b>Question for NOVA: <br></br><u>Why are Detection Processes essential for maintaining awareness of anomalous events?</u></b></a>
+                            <a href="#"><b>Question for NOVA: <br></br>Why are Detection Processes essential for maintaining awareness of anomalous events?</b></a>
                         </div>
                     </div>
                 </nav>
@@ -237,7 +237,7 @@ function Viz() {
                             <a href="https://csf.tools/reference/nist-cybersecurity-framework/v1-1/rs/rs-rp/"> Click here to learn more about the Response Planning subcategories.</a>
                         </div>
                         <div className="question">
-                            <a href="#"><b>Question for NOVA: <br></br><u>How does Response Planning help organizations handle detected cybersecurity events?</u></b></a>
+                            <a href="#"><b>Question for NOVA: <br></br>How does Response Planning help organizations handle detected cybersecurity events?</b></a>
                         </div>
                         <div className="subcategory">
                             <a href="#">
@@ -248,7 +248,7 @@ function Viz() {
                             <a href="https://csf.tools/reference/nist-cybersecurity-framework/v1-1/rs/rs-co/"> Click here to learn more about the Communications subcategories: </a>
                         </div>
                         <div className="question">
-                            <a href="#"><b>Question for NOVA: <br></br><u>Why is effective Communications important during a response to a cybersecurity incident?</u></b></a>
+                            <a href="#"><b>Question for NOVA: <br></br>Why is effective Communications important during a response to a cybersecurity incident?</b></a>
                         </div>
                         <div className="subcategory">
                             <a href="#">
@@ -259,7 +259,7 @@ function Viz() {
                             <a href="https://csf.tools/reference/nist-cybersecurity-framework/v1-1/rs/rs-an/"> Click here to learn more about the Analysis subcategories.</a>
                         </div>
                         <div className="question">
-                            <a href="#"><b>Question for NOVA: <br></br><u>What role does Analysis play in supporting response and recovery activities?</u></b></a>
+                            <a href="#"><b>Question for NOVA: <br></br>What role does Analysis play in supporting response and recovery activities?</b></a>
                         </div>
                         <div className="subcategory">
                             <a href="#">
@@ -270,7 +270,7 @@ function Viz() {
                             <a href=" https://csf.tools/reference/nist-cybersecurity-framework/v1-1/rs/rs-mi/"> Click here to learn more about the Mitigation subcategories.</a>
                         </div>
                         <div className="question">
-                            <a href="#"><b>Question for NOVA: <br></br><u>How can organizations Mitigate the effects of a cybersecurity event?</u></b></a>
+                            <a href="#"><b>Question for NOVA: <br></br>How can organizations Mitigate the effects of a cybersecurity event?</b></a>
                         </div>
                         <div className="subcategory">
                             <a href="#">
@@ -281,7 +281,7 @@ function Viz() {
                             <a href="https://csf.tools/reference/nist-cybersecurity-framework/v1-1/rs/rs-im/"> Click here to learn more about the Improvements subcategories:</a>
                         </div>
                         <div className="question">
-                            <a href="#"><b>Question for NOVA: <br></br><u>Why is it important to make Improvements based on lessons learned from response activities?</u></b></a>
+                            <a href="#"><b>Question for NOVA: <br></br>Why is it important to make Improvements based on lessons learned from response activities?</b></a>
                         </div>
                     </div>
                 </nav>
@@ -312,7 +312,7 @@ function Viz() {
                             <a href="https://csf.tools/reference/nist-cybersecurity-framework/v1-1/rc/rc-rp//"> Click here to learn more about the Recovery Planning subcategories.</a>
                         </div>
                         <div className="question">
-                            <a href="#"><b>Question for NOVA: <br></br><u>How does Recovery Planning help organizations restore systems or assets affected by cybersecurity events?</u></b></a>
+                            <a href="#"><b>Question for NOVA: <br></br>How does Recovery Planning help organizations restore systems or assets affected by cybersecurity events?</b></a>
                         </div>
                         <div className="subcategory">
                             <a href="#">
@@ -323,7 +323,7 @@ function Viz() {
                             <a href="https://csf.tools/reference/nist-cybersecurity-framework/v1-1/rc/rc-im/"> Click here to learn more about the Improvements subcategories.</a>
                         </div>
                         <div className="question">
-                            <a href="#"><b>Question for NOVA: <br></br><u> Why is it important to incorporate lessons learned into Improvements for recovery planning and processes?</u></b></a>
+                            <a href="#"><b>Question for NOVA: <br></br> Why is it important to incorporate lessons learned into Improvements for recovery planning and processes?</b></a>
                         </div>
                         <div className="subcategory">
                             <a href="#">
@@ -334,7 +334,7 @@ function Viz() {
                             <a href="https://csf.tools/reference/nist-cybersecurity-framework/v1-1/rc/rc-co/"> Click here to learn more about the Communications subcategories.</a>
                         </div>
                         <div className="question">
-                            <a href="#"><b>Question for NOVA: <br></br><u>How does coordinating with internal and external parties help in the restoration of systems or assets affected by cybersecurity events?</u></b></a>
+                            <a href="#"><b>Question for NOVA: <br></br>How does coordinating with internal and external parties help in the restoration of systems or assets affected by cybersecurity events?</b></a>
                         </div>
                     </div>
                 </nav>
