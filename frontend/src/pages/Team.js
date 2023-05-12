@@ -47,7 +47,7 @@ function Team() {
             <div className="features-container">
                 <div className="features-section">
                     <div className="feature">
-                    <img className="feature-image" src="/pics/feature1.jpg" alt="Feature 1" />
+                    <img className="feature-image" src="/pics/feature1.JPG" alt="Feature 1" />
                     <h2 className="feature-title">Chart Feature</h2>
                     <ul className="feature-description">
                         <li>
@@ -62,7 +62,7 @@ function Team() {
                     </ul>
                     </div>
                     <div className="feature">
-                    <img className="feature-image" src="/pics/feature2.jpg" alt="Feature 2" />
+                    <img className="feature-image" src="/pics/feature2.JPG" alt="Feature 2" />
                     <h2 className="feature-title">NOVA Chatbot Feature</h2>
                     <ul className="feature-description">
                         <li>
@@ -74,7 +74,7 @@ function Team() {
                     </ul>
                     </div>
                     <div className="feature">
-                    <img className="feature-image" src="/pics/feature3.jpg" alt="Feature 3" />
+                    <img className="feature-image" src="/pics/feature3.JPG" alt="Feature 3" />
                     <h2 className="feature-title">NOVA Response Feature</h2>
                     <ul className="feature-description">
                         <li>
