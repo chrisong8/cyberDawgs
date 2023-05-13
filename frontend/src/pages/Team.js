@@ -133,7 +133,7 @@ function Team() {
                     <Card.Body>
                         <Card.Title className="cardTitle">Connor Fink</Card.Title>
                         <Card.Text className="cardDesc">Data Scientist</Card.Text>
-                        <Card.Text className="cardDesc">https://www.linkedin.com/in/connor-fink-uw/</Card.Text>
+                        <Card.Text className="cardDesc">https://www.linkedin.com/in/connor--fink/</Card.Text>
                     </Card.Body>
                 </Card>
 
